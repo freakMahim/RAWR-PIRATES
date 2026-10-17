@@ -11,7 +11,23 @@
 
   // All details for future projects live here. Keep this array empty until Mahim has projects to show.
   // Example object: { title: 'Project name', description: 'What it does', technologies: ['HTML', 'CSS'], image: 'assets/project-preview.png', github: 'https://github.com/username/repo', demo: 'https://username.github.io/repo/' }
-  const projects = [];
+  const projects = [{
+    title: "My TaskFlow",
+    description: "A simple Task Manager.",
+    technologies: ["Html, CSS , JS"],
+    image: "assets/TaskFlow.png",
+    github: "https://github.com/freakMahim",
+    demo: "https://freakmahim.github.io/Taskflow/"
+  },
+  
+  {
+    title: "My quick notes",
+    description: "keep notes .",
+    technologies: ["Html, CSS , JS"],
+    image: "assets/quick notes.png",
+    github: "https://github.com/freakMahim",
+    demo: "https://freakmahim.github.io/quick-notes/"
+  }];
 
   // Opening sequence: no long loading screen, and no forced audio.
   const intro = $('#intro-screen');
