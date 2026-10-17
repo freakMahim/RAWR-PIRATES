@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en" class="no-js" data-theme="day">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#74d5ee">
+  <meta name="description" content="The pirate adventure portfolio of Mahim, captain of RAWR PIRATES.">
+  <title>Mahim — Captain of RAWR PIRATES</title>
+  <link rel="icon" href="assets/COMPAS.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body data-theme="day">
+  <a class="skip-link" href="#main-content">Skip to the adventure</a>
+
+  <div class="intro-screen" id="intro-screen" aria-labelledby="intro-title">
+    <div class="intro-backdrop" aria-hidden="true"></div>
+    <div class="intro-stars" aria-hidden="true"></div>
+    <div class="intro-content">
+      <img class="intro-mark" src="assets/COMPAS.jpg" alt="RAWR Pirates skull compass emblem" width="118" height="119">
+      <p class="eyebrow intro-eyebrow">A crew. A dream. An endless sea.</p>
+      <h1 id="intro-title">THE GRAND<br><span>ADVENTURE</span></h1>
+      <p class="intro-subtitle">The log pose points to a new story.</p>
+      <button class="button button-gold sail-button" id="set-sail" type="button">
+        <span>SET SAIL</span><span class="button-arrow" aria-hidden="true">↗</span>
+      </button>
+      <p class="intro-hint">Tap to enter · Sound off · Adventure on</p>
+    </div>
+    <div class="intro-coordinates" aria-hidden="true"><span>N 18° 12′</span><span>GRAND LINE / 01</span><span>E 64° 08′</span></div>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="#home" aria-label="RAWR Pirates home">
+      <img src="assets/COMPAS.jpg" alt="" width="44" height="44">
+      <span><strong>RAWR</strong><small>PIRATES</small></span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#home" class="nav-link is-active">Home</a>
+      <a href="#about" class="nav-link">Captain</a>
+      <a href="#treasure-map" class="nav-link">World map</a>
+      <a href="#projects" class="nav-link">Treasure</a>
+      <a href="#contact" class="nav-link">Crew</a>
+    </nav>
+    <div class="header-tools">
+      <button class="theme-label" id="theme-toggle" type="button" aria-label="Switch to night mode" title="Switch to night mode"><span id="theme-toggle-icon" aria-hidden="true">☾</span></button>
+      <select id="theme-select" class="theme-select" aria-label="Choose ocean atmosphere">
+        <option value="day">Light / Day</option><option value="night">Night</option>
+      </select>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero ocean-scene" id="home" aria-labelledby="hero-title">
+      <div class="sky-grain" aria-hidden="true"></div>
+      <div class="sun-glow" aria-hidden="true"><span class="sun-disc"></span></div>
+      <div class="moon-glow" aria-hidden="true"><span class="moon-disc"></span></div>
+      <div class="night-sky-stars" aria-hidden="true"></div>
+      <div class="cloud cloud-one" aria-hidden="true"></div><div class="cloud cloud-two" aria-hidden="true"></div><div class="cloud cloud-three" aria-hidden="true"></div>
+      <div class="bird-flock" aria-hidden="true">⌁　⌁　⌁</div>
+      <div class="hero-inner page-shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> LOGBOOK ENTRY 001 · EAST BLUE</p>
+          <p class="hero-kicker">THE CAPTAIN OF</p>
+          <h1 id="hero-title">RAWR<br><span>PIRATES</span></h1>
+          <p class="hero-lead">I'm <strong>Mahim</strong> — chasing big dreams, good chaos, and the next horizon.</p>
+          <p class="hero-note">Developer-in-training. Data explorer. Full-time dream chaser.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#treasure-map">EXPLORE MY WORLD <span aria-hidden="true">↘</span></a>
+            <a class="button button-ghost" href="#projects">VIEW TREASURE</a>
+          </div>
+          <div class="hero-logline"><span class="tiny-compass">✳</span><span>FREEDOM IS THE REAL TREASURE.</span><span class="logline-dash"></span><span>EST. FOREVER</span></div>
+        </div>
+        <a class="wanted-card reveal" href="#about" aria-label="Read Captain Mahim's profile">
+          <span class="wanted-pin" aria-hidden="true"></span>
+          <span class="wanted-stamp">CREW<br>FILE</span>
+          <img src="assets/PFP.jfif" alt="Mahim's custom wanted poster" width="768" height="1365" fetchpriority="high">
+          <span class="wanted-card-caption"><span>CAPTAIN PROFILE</span><span aria-hidden="true">↗</span></span>
+        </a>
+      </div>
+      <div class="hero-coastline" aria-hidden="true"><div class="distant-island island-a"></div><div class="distant-island island-b"></div><div class="sailboat-silhouette">⛵</div></div>
+      <div class="ocean-band" aria-hidden="true"><div class="wave wave-back"></div><div class="wave wave-front"></div><div class="ocean-glint"></div></div>
+      <div class="hero-bottom page-shell"><span>SCROLL TO DISCOVER</span><span class="scroll-line" aria-hidden="true"></span><span>01 / 06</span></div>
+    </section>
+
+    <section class="map-section section-pad" id="treasure-map" aria-labelledby="map-title">
+      <div class="page-shell">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow"><span class="eyebrow-rule"></span> CHOOSE YOUR DESTINATION</p><h2 id="map-title">THE <span>WORLD MAP</span></h2></div>
+          <p class="section-aside">Every island holds a story.<br>Pick a location, captain.</p>
+        </div>
+        <div class="map-frame reveal">
+          <div class="map-topline"><span>RAWR PIRATES · NAVIGATION CHART</span><span class="map-coordinates">N 21° 04′ / E 117° 32′</span></div>
+          <div class="map-surface" id="map-surface">
+            <svg class="map-art" viewBox="0 0 1000 440" preserveAspectRatio="none" aria-hidden="true">
+              <defs><pattern id="map-waves" width="48" height="28" patternUnits="userSpaceOnUse"><path d="M2 10 q7 -6 14 0 t14 0" stroke="#537b72" stroke-width="1" fill="none" opacity=".2"/></pattern></defs>
+              <rect width="1000" height="440" fill="url(#map-waves)"/>
+              <g fill="#b1a578" stroke="#897b53" stroke-width="2" opacity=".72">
+                <path d="M65 64 Q89 22 140 34 L176 52 191 89 169 126 130 140 111 178 78 162 54 119Z"/>
+                <path d="M282 228 Q301 199 335 211 L365 230 356 260 333 278 305 265Z"/>
+                <path d="M432 52 Q464 25 509 39 L543 69 534 108 507 129 475 120 459 144 430 116Z"/>
+                <path d="M562 277 Q594 241 627 256 L662 279 650 315 619 339 586 326Z"/>
+                <path d="M759 76 Q788 49 823 63 L852 87 840 121 814 138 784 122Z"/>
+                <path d="M837 302 Q864 276 892 293 L917 320 901 352 872 355 849 337Z"/>
+              </g>
+              <g stroke="#8b7445" fill="none" stroke-width="1.5" stroke-dasharray="5 8" opacity=".62"><path d="M133 90 C220 47 247 167 318 240 S470 211 495 85 S663 80 616 294 S795 330 877 321"/><path d="M318 240 Q400 360 616 294"/></g>
+              <g fill="#866c3c" font-size="13" font-family="Georgia,serif" letter-spacing="2" opacity=".8"><text x="70" y="202">WINDMILL COVE</text><text x="426" y="171">LOG POSE BAY</text><text x="757" y="165">SKY ISLAND</text><text x="720" y="389">LAST HORIZON</text></g>
+              <g transform="translate(923 47)" stroke="#745c39" fill="none" stroke-width="2"><circle r="28"/><circle r="4" fill="#745c39"/><path d="M0 -38 L8 -5 0 0 -8 -5Z M0 38 L8 5 0 0 -8 5Z M-38 0 L-5 -8 0 0 -5 8Z M38 0 L5 -8 0 0 5 8Z" fill="#745c39"/></g>
+            </svg>
+            <svg class="route-overlay" id="route-overlay" viewBox="0 0 1000 440" preserveAspectRatio="none" aria-hidden="true"><path id="route-path" d="M180 215 Q430 60 540 120"/><circle id="route-endpoint" cx="540" cy="120" r="6"/></svg>
+            <button class="map-marker marker-home" type="button" data-target="home" data-x="17" data-y="23" aria-label="Sail to Home"><span class="marker-symbol">⌂</span><span>HOME</span></button>
+            <button class="map-marker marker-about" type="button" data-target="about" data-x="32" data-y="67" aria-label="Sail to About Me"><span class="marker-symbol">♟</span><span>CAPTAIN'S COVE</span></button>
+            <button class="map-marker marker-projects" type="button" data-target="projects" data-x="48" data-y="21" aria-label="Sail to Projects"><span class="marker-symbol">✦</span><span>TREASURE BAY</span></button>
+            <button class="map-marker marker-skills" type="button" data-target="skills" data-x="61" data-y="64" aria-label="Sail to Skills"><span class="marker-symbol">⚒</span><span>SKILL ISLAND</span></button>
+            <button class="map-marker marker-journey" type="button" data-target="journey" data-x="79" data-y="24" aria-label="Sail to Journey and Education"><span class="marker-symbol">⌖</span><span>JOURNEY POINT</span></button>
+            <button class="map-marker marker-contact" type="button" data-target="contact" data-x="86" data-y="76" aria-label="Sail to Join My Crew"><span class="marker-symbol">⚑</span><span>CREW HARBOR</span></button>
+            <img class="map-ship" id="map-ship" src="assets/RAWR-SHIP.png" alt="RAWR Pirates ship traveling across the map" width="1026" height="1533">
+            <div class="map-compass" aria-hidden="true"><img src="assets/COMPAS.jpg" alt="" width="72" height="72"><span>N</span></div>
+            <div class="map-treasure" aria-hidden="true">✹ <span>HERE BE DREAMS</span> ✹</div>
+          </div>
+          <div class="map-status"><span class="status-light" aria-hidden="true"></span><span id="map-status-text" aria-live="polite">Ship ready at the starting point.</span><button class="text-button" id="treasure-btn" type="button">SEARCH FOR TREASURE ↗</button></div>
+          <p class="treasure-note" id="treasure-note" hidden>Log Pose locked: your next adventure is whatever you decide to build. Keep exploring, captain.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section-pad" id="about" aria-labelledby="about-title">
+      <div class="page-shell">
+        <div class="section-heading reveal"><div><p class="eyebrow"><span class="eyebrow-rule"></span> THE PERSON BEHIND THE FLAG</p><h2 id="about-title">MEET THE <span>CAPTAIN</span></h2></div><p class="section-aside">A little chaos, a lot of ambition,<br>and a heart pointed toward adventure.</p></div>
+        <div class="profile-layout">
+          <div class="profile-card paper-card reveal">
+            <div class="card-index">CREW DOSSIER <span>NO. 001</span></div>
+            <div class="profile-art"><img src="assets/TEXT HIDE AND SEAK LOGO.jpg" alt="Mahim's character avatar" width="736" height="736" loading="lazy"><span class="profile-ring"></span><span class="profile-star star-one">✦</span><span class="profile-star star-two">✧</span></div>
+            <p class="profile-label">CAPTAIN / DREAM CHASER</p>
+            <h3>MOHSIN ISLAM<br><span>MAHIM</span></h3>
+            <p class="profile-quote">“Act or accept.”</p>
+            <div class="profile-stats"><div><small>CREW</small><strong>RAWR PIRATES</strong></div><div><small>BOUNTY</small><strong>฿ 67,000,000,000</strong></div></div>
+          </div>
+          <div class="profile-details reveal">
+            <p class="eyebrow"><span class="eyebrow-rule"></span> YO, NICE TO MEET YOU</p>
+            <h3>HEY! I'M MAHIM<br>AND I LOVE WHATEVER I DO <span>:3</span></h3>
+            <p class="body-copy">I’m learning, building, exploring, and trying to make every day count. My compass points toward development, data, and the kind of adventures that turn into great stories.</p>
+            <div class="detail-grid">
+              <article class="detail-tile"><span class="tile-icon">⌘</span><small>MY NEXT QUEST</small><strong>Developer &amp; Data Analyst</strong><p>Building useful things and finding meaning in data.</p></article>
+              <article class="detail-tile"><span class="tile-icon">☀</span><small>MY ENERGY</small><strong>Self-love &amp; confidence</strong><p>Big inner drive for growth, success, and high-level achievements.</p></article>
+              <article class="detail-tile"><span class="tile-icon">♨</span><small>OFF-DUTY MODE</small><strong>Travel · Gaming · Coding</strong><p>Vibing, sleeping, riding bikes, and masti with friends.</p></article>
+              <article class="detail-tile"><span class="tile-icon">🍜</span><small>FAVORITES</small><strong>Minecraft &amp; “a lot” of food</strong><p>Been playing Minecraft for a long time. Favorite food: have a lot, lmao!</p></article>
+            </div>
+            <div class="devil-fruit"><div class="fruit-icon" aria-hidden="true">◉</div><div><small>DEVIL FRUIT FILE</small><h4>GOMU GOMU NO MASTI</h4><p>Type: Personal / just-for-fun. Ability: endless masti, stretchy imagination, and bouncing back into the next challenge.</p></div><span class="fruit-stamp">CLASSIFIED</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section section-pad" id="skills" aria-labelledby="skills-title">
+      <div class="page-shell">
+        <div class="section-heading reveal"><div><p class="eyebrow"><span class="eyebrow-rule"></span> TOOLS IN THE CAPTAIN'S KIT</p><h2 id="skills-title">SKILLS &amp; <span>INTERESTS</span></h2></div><p class="section-aside">Every skill is another island<br>on the map to mastery.</p></div>
+        <div class="skills-layout">
+          <div class="skills-intro reveal"><div class="big-number">08<span>+</span></div><h3>LEARNING IS<br>THE REAL LOOT.</h3><p>These are the tools and topics I'm exploring. The journey keeps going.</p><a href="#contact" class="inline-link">SHARE A QUEST WITH ME <span>↗</span></a></div>
+          <div class="skill-list reveal" aria-label="Skills and interests">
+            <div class="skill-item"><span class="skill-no">01</span><span class="skill-name">HTML</span><span class="skill-level">WEB FOUNDATIONS</span><span class="skill-symbol">〈〉</span></div>
+            <div class="skill-item"><span class="skill-no">02</span><span class="skill-name">CSS</span><span class="skill-level">VISUAL CRAFT</span><span class="skill-symbol">✳</span></div>
+            <div class="skill-item"><span class="skill-no">03</span><span class="skill-name">JavaScript</span><span class="skill-level">INTERACTION</span><span class="skill-symbol">JS</span></div>
+            <div class="skill-item"><span class="skill-no">04</span><span class="skill-name">Python</span><span class="skill-level">PROBLEM SOLVING</span><span class="skill-symbol">⌘</span></div>
+            <div class="skill-item"><span class="skill-no">05</span><span class="skill-name">Power BI</span><span class="skill-level">DATA STORIES</span><span class="skill-symbol">▥</span></div>
+            <div class="skill-item"><span class="skill-no">06</span><span class="skill-name">SQL</span><span class="skill-level">DATA EXPLORATION</span><span class="skill-symbol">⌁</span></div>
+            <div class="skill-item"><span class="skill-no">07</span><span class="skill-name">Excel</span><span class="skill-level">ANALYSIS</span><span class="skill-symbol">▦</span></div>
+            <div class="skill-item"><span class="skill-no">08</span><span class="skill-name">AI Prompting</span><span class="skill-level">IDEA ENGINEERING</span><span class="skill-symbol">✧</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section section-pad" id="projects" aria-labelledby="projects-title">
+      <div class="page-shell">
+        <div class="section-heading reveal"><div><p class="eyebrow"><span class="eyebrow-rule"></span> ARTIFACTS FROM THE JOURNEY</p><h2 id="projects-title">MY TREASURE <span>CHEST</span></h2></div><p class="section-aside">No treasure displayed yet.<br>The best finds are still ahead.</p></div>
+        <div class="treasure-gallery reveal" id="project-gallery" aria-live="polite">
+          <div class="empty-treasure"><div class="chest-illustration" aria-hidden="true"><span class="chest-lock">✦</span><span class="chest-spark spark-a">✧</span><span class="chest-spark spark-b">✦</span></div><p class="eyebrow">EMPTY FOR NOW / READY FOR WHAT'S NEXT</p><h3>THE NEXT GREAT THING<br>COULD BE YOURS.</h3><p>I haven’t added projects yet. This space is ready for future websites, dashboards, experiments, and all the things I build next.</p><a href="#contact" class="button button-dark">LET'S BUILD SOMETHING <span aria-hidden="true">↗</span></a></div>
+          <div class="treasure-side-note"><span class="side-note-num">01—∞</span><p>FUTURE FINDS</p><h4>My NEXT<br>PROJECT GOES<br>RIGHT HERE.</h4><div class="side-note-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey-section section-pad" id="journey" aria-labelledby="journey-title">
+      <div class="page-shell">
+        <div class="section-heading reveal"><div><p class="eyebrow"><span class="eyebrow-rule"></span> THE LOGBOOK IS STILL OPEN</p><h2 id="journey-title">MY <span>JOURNEY</span></h2></div><p class="section-aside">A journey in progress.<br>More chapters to be written.</p></div>
+        <div class="timeline reveal">
+          <div class="timeline-line" aria-hidden="true"></div>
+          <article class="timeline-entry"><span class="timeline-node">01</span><div class="timeline-content"><p class="timeline-kicker">CHAPTER ONE · FOUNDATIONS</p><h3>THE STARTING ISLAND</h3><p>Every captain starts somewhere. This is where the learning, curiosity, and ambition began.</p></span></div><span class="timeline-date">THE BEGINNING</span></article>
+          <article class="timeline-entry"><span class="timeline-node">02</span><div class="timeline-content"><p class="timeline-kicker">CHAPTER TWO · BUILDING SKILLS</p><h3>COLLECTING THE TOOLS</h3><p>Exploring web development, programming, data analytics, and AI prompting one skill at a time.</p><span class="editable-tag">IN PROGRESS</span></div><span class="timeline-date">RIGHT NOW</span></article>
+          <article class="timeline-entry"><span class="timeline-node">03</span><div class="timeline-content"><p class="timeline-kicker">CHAPTER FOUR · THE DREAM</p><h3>DEVELOPER × DATA ANALYST</h3><p>The next horizon: build meaningful projects, learn continuously, and turn ideas into working things.</p></div><span class="timeline-date">ONWARD</span></article>
+    </section>
+
+    <section class="contact-section section-pad" id="contact" aria-labelledby="contact-title">
+      <div class="contact-sky-art" aria-hidden="true"><div class="contact-moon"></div><div class="contact-stars">✦　·　✧　·　✦　　·　✧　·　✦</div><div class="contact-wave"></div></div>
+      <div class="page-shell contact-shell">
+        <div class="contact-heading reveal"><p class="eyebrow"><span class="eyebrow-rule"></span> RECRUITMENT IS OPEN</p><h2 id="contact-title">JOIN MY <span>CREW</span></h2><p>Got an idea, a project, or a story worth sharing?<br>There's always room aboard for good people.</p></div>
+        <div class="contact-board reveal">
+          <div class="contact-board-top"><span>TRANSMISSION CHANNELS</span><span>RAWR / COMMS 01</span></div>
+          <a class="contact-row" href="mailto:freakmahim@gmail.com"><span class="contact-icon">✉</span><span class="contact-detail"><small>EMAIL</small><strong>freakmahim@gmail.com</strong></span><span class="contact-action">OPEN MAIL ↗</span></a>
+          <button class="contact-row contact-copy-row" type="button" data-copy="freakmahim@gmail.com"><span class="contact-icon">⎘</span><span class="contact-detail"><small>COPY EMAIL</small><strong>freakmahim@gmail.com</strong></span><span class="contact-action">COPY ↗</span></button>
+          <a class="contact-row" href="tel:01531711316"><span class="contact-icon">☎</span><span class="contact-detail"><small>PHONE / WHATSAPP CONTACT</small><strong>01531711316</strong></span><span class="contact-action">CALL ↗</span></a>
+          <a class="contact-row" href="https://github.com/freakMahim" target="_blank" rel="noopener noreferrer"><span class="contact-icon">⌘</span><span class="contact-detail"><small>GITHUB</small><strong>github.com/freakMahim</strong></span><span class="contact-action">OPEN ↗</span></a>
+          <a class="contact-row" href="https://www.linkedin.com/in/mohsin-islam-mahim-ab82b642b/" target="_blank" rel="noopener noreferrer"><span class="contact-icon">in</span><span class="contact-detail"><small>LINKEDIN</small><strong>Mohsin Islam Mahim</strong></span><span class="contact-action">OPEN ↗</span></a>
+          <a class="contact-row" href="https://www.instagram.com/tyrannosaurusrawrr/" target="_blank" rel="noopener noreferrer"><span class="contact-icon">◎</span><span class="contact-detail"><small>INSTAGRAM</small><strong>@tyrannosaurusrawrr</strong></span><span class="contact-action">OPEN ↗</span></a>
+          <a class="contact-row" href="https://www.facebook.com/esdeeemhm" target="_blank" rel="noopener noreferrer"><span class="contact-icon">f</span><span class="contact-detail"><small>FACEBOOK</small><strong>esdeeemhm</strong></span><span class="contact-action">OPEN ↗</span></a>
+          <button class="contact-row contact-copy-row" type="button" data-copy="tyrannosaurusrawrr"><span class="contact-icon">◈</span><span class="contact-detail"><small>DISCORD USERNAME</small><strong>tyrannosaurusrawrr</strong></span><span class="contact-action">COPY ↗</span></button>
+        </div>
+        <p class="contact-footnote">No fake message form. Choose a real channel above and say hello.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-shell footer-inner"><a class="footer-brand" href="#home"><img src="assets/COMPAS.jpg" alt="" width="44" height="44"><span><strong>RAWR PIRATES</strong><small>THE SEA IS WIDE. THE DREAM IS WIDER.</small></span></a><p>MADE WITH CURIOSITY BY MAHIM <span>✦</span></p><a class="back-to-top" href="#home">BACK TO SHIP ↑</a></div>
+  </footer>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"><span id="scroll-progress-fill"></span></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript-note">The adventure map and atmosphere selector need JavaScript. The portfolio content and contact links remain available without it.</p></noscript>
+</body>
+</html>
